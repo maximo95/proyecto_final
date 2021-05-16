@@ -6,8 +6,8 @@
   height: 70px; }
   @media only screen and (max-width: 480px) {
     .header__logo {
-      width: 4rem;
-      height: 8rem; } }
+      width: 2rem;
+      height: 2.5rem; } }
 
 .header__boton {
   background-color: #386150 !important;
@@ -22,7 +22,7 @@
   @media only screen and (max-width: 480px) {
     .bloque-carrucel__tamanio {
       width: 30rem;
-      height: 60rem; } }
+      height: 15rem; } }
 
 .bloque-carrucel__tamanio--centrar {
   text-align: center;
@@ -105,6 +105,10 @@ h3 {
   border: 3px solid #386150;
   padding: 2rem 12rem;
   margin: 2rem 12rem; }
+  @media screen and (max-width: 480px) {
+    .parrafo {
+      padding: 0.1rem 0.2rem;
+      margin: 0.1rem 0.2rem; } }
 
 footer {
   width: 100%;
