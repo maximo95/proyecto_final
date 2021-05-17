@@ -38,6 +38,10 @@
 
 .footer{
     font-family: 'Dancing Script', cursive;
+    @media only screen and (max-width:480px) {
+        width:1rem;
+        height:1rem;
+    }
 }
 .footer__boton{
     background-color: #386150 !important;
