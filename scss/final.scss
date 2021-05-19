@@ -103,15 +103,14 @@ $bloques: (
 }
 .adaptacion{
     width: 100%;
-    height: auto;
 }
 .parrafo{
 border: 3px solid #386150;
   padding: 2rem 12rem;
-  margin: 2rem 12rem;
+  margin: 3rem 12rem;
   @media screen and (max-width:480px) {
     padding: 0.1rem 0.2rem;
-    margin: 0.1rem 0.2rem;
+    margin: 2.2rem 0.2rem;
   }
 }
 footer{
@@ -136,6 +135,7 @@ nav{
 body{
     position: relative;
     min-height: 100vh;
+    padding-bottom: 2rem;
 }
 .contenedorCartas{
     padding-bottom: 40px ;
@@ -143,9 +143,4 @@ body{
 .carta{
     height: 100%;
 }
-.contenedor-boton{
-    position: absolute;
-}
-.contenedor-cartas{
-    position: relative;
-}
+
