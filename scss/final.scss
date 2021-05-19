@@ -36,14 +36,16 @@
     border: 3px solid #386150;
 }
 
-.footer{
-    font-family: 'Dancing Script', cursive;
-    @media only screen and (max-width:480px) {
-        width:1rem;
-        height:1rem;
+@media only screen and (max-width:480px) {
+        .centrarIconos{
+        display: flex;
+        justify-content: center;
+        width:2rem;
+        height:2rem;
     }
 }
-.footer__boton{
+
+.footer{
     background-color: #386150 !important;
     border-color: #58B09C !important;
 }
@@ -97,7 +99,7 @@ $bloques: (
     }
 }
 @for $numero from 1 through 3 {
-    h#{$numero}{font-size: 4rem-$numero;}
+    .fuente-#{$numero}{font-size: 4rem-$numero;}
 }
 .adaptacion{
     width: 100%;
@@ -114,19 +116,36 @@ border: 3px solid #386150;
 }
 footer{
     width: 100%;
-    margin-top: 50px;
     background-color: #386150;
+    position: absolute;
+    bottom: 0;
 }
 .pie{
     color: #386150;
 }
 .centrarIconos{
     display: flex;
-    justify-content: space-between;
+    justify-content:center;/*space-between;*/
 }
 .separar{
     padding-top: 5px;
 }
 nav{
     background-color: #386150;
+}
+body{
+    position: relative;
+    min-height: 100vh;
+}
+.contenedorCartas{
+    padding-bottom: 40px ;
+}
+.carta{
+    height: 100%;
+}
+.contenedor-boton{
+    position: absolute;
+}
+.contenedor-cartas{
+    position: relative;
 }
