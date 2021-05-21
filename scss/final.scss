@@ -1,5 +1,6 @@
 .header{
-    font-family: 'Dancing Script', cursive;
+    font-family:'Raleway', sans-serif;
+    font-size: 1.5rem;
 }
 .header__logo{
     width: 70px;
@@ -145,5 +146,8 @@ body{
 }
 
 .texto-derecha{
-    text-align: right;
+    text-align: center;
+}
+.preguntas{
+    padding: 1rem 2rem;
 }
