@@ -34,6 +34,7 @@
 .tabla {
      font-family: 'Zen Dots', cursive;
      margin: 30px 0px;
+     overflow-x: scroll;
 }
 .tabla__borde{
     border: 3px solid #386150;
@@ -148,3 +149,13 @@ body{
 .preguntas{
     padding: 1rem 2rem;
 }
+ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    list-style-type: none;
+    flex-wrap: wrap;
+    padding: 0;
+}
+    
