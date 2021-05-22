@@ -58,24 +58,6 @@
 h1 {
   color: #386150; }
 
-/*.fondo{
-    background-color: #30CA82;
-}*/
-.fila--imagen {
-  background-color: #58B09C; }
-
-.fila--texto {
-  background-color: #30CA82; }
-
-.fuente-1 {
-  font-size: 3rem; }
-
-.fuente-2 {
-  font-size: 2rem; }
-
-.fuente-3 {
-  font-size: 1rem; }
-
 .adaptacion {
   width: 100%; }
 
@@ -87,9 +69,6 @@ footer {
   background-color: #386150;
   position: absolute;
   bottom: 0; }
-
-.pie {
-  color: #386150; }
 
 .centrarIconos {
   display: flex;
@@ -107,14 +86,8 @@ body {
   min-height: 100vh;
   padding-bottom: 2rem; }
 
-.contenedorCartas {
-  padding-bottom: 40px; }
-
 .carta {
   padding-bottom: 2rem; }
-
-.texto-derecha {
-  text-align: center; }
 
 .preguntas {
   padding: 1rem 2rem; }

@@ -59,21 +59,6 @@ background-color:#F5FBFA;
 h1{
     color: #386150;
 }
-/*.fondo{
-    background-color: #30CA82;
-}*/
-$bloques: (
-    imagen: #58B09C,
-    texto: #30CA82
-);
-@each $bloque, $color in $bloques {
-    .fila--#{$bloque}{
-    background-color: $color;
-    }
-}
-@for $numero from 1 through 3 {
-    .fuente-#{$numero}{font-size: 4rem-$numero;}
-}
 .adaptacion{
     width: 100%;
 }
@@ -85,9 +70,6 @@ footer{
     background-color: #386150;
     position: absolute;
     bottom: 0;
-}
-.pie{
-    color: #386150;
 }
 .centrarIconos{
     display: flex;
@@ -105,14 +87,8 @@ body{
     min-height: 100vh;
     padding-bottom: 2rem;
 }
-.contenedorCartas{
-    padding-bottom: 40px ;
-}
 .carta{
     padding-bottom: 2rem;
-}
-.texto-derecha{
-    text-align: center;
 }
 .preguntas{
     padding: 1rem 2rem;
