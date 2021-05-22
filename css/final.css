@@ -157,3 +157,14 @@ ul {
   list-style-type: none;
   flex-wrap: wrap;
   padding: 0; }
+
+.rectangulo {
+  display: flex;
+  overflow-x: auto; }
+
+.scroll {
+  overflow-x: auto; }
+
+/*overflow-x: scroll;*/
+.table-padding {
+  padding: 0 2rem; }
