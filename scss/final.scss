@@ -15,46 +15,25 @@
     border-color: #386150 !important;
 }
 .bloque-carrucel{
-    margin: 30px 0px;
+    margin: 1.875rem 0rem;
 }
 .bloque-carrucel__tamanio{
     width:60%;
-    /*@media only screen and (max-width:480px) {
-          width:30rem;
-          height:15rem;
-    }   */
 }
-.size{
-    overflow:hidden ;
-}
-/*.bloque-carrucel__tamanio--centrar{
-    text-align: center;
-    justify-content: center;
-}*/
-.tabla {
-     font-family: 'Zen Dots', cursive;
-     margin: 30px 0px;
-     overflow-x: scroll;
-}
-.tabla__borde{
-    border: 3px solid #386150;
-}
-
-@media only screen and (max-width:480px) {
+/*@media only screen and (max-width:480px) {
         .centrarIconos{
         display: flex;
         justify-content: center;
         width:2rem;
         height:2rem;
     }
-}
+}*/
 
-.footer{
+/*.footer{
     background-color: #386150 !important;
     border-color: #58B09C !important;
-}
+}*/
 .formulario{
-    font-family: 'Original Surfer', cursive;
     margin: 30px 0px;
 }
 .formulario__boton{
@@ -83,16 +62,6 @@ h1{
 /*.fondo{
     background-color: #30CA82;
 }*/
-.grid{
-display: grid;
-grid-template-columns: repeat(2,50%);
-gap: 1px 1px;
-justify-content: stretch;
-text-align: center;
-padding: 2px;
-border: 2px solid #386150;
-margin: 15px 50px;
-}
 $bloques: (
     imagen: #58B09C,
     texto: #30CA82
@@ -122,7 +91,7 @@ footer{
 }
 .centrarIconos{
     display: flex;
-    justify-content:center;/*space-between;*/
+    justify-content:center;
 }
 .separar{
     padding-top: 5px;
@@ -140,9 +109,8 @@ body{
     padding-bottom: 40px ;
 }
 .carta{
-    height: 100%;
+    padding-bottom: 2rem;
 }
-
 .texto-derecha{
     text-align: center;
 }
@@ -166,9 +134,6 @@ ul{
 .scroll {
     overflow-x: auto;
 }
-
-    /*overflow-x: scroll;*/
-
 .table-padding{
-    padding:0 2rem;
+    padding: 2rem 2rem 1rem;
 }
