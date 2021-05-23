@@ -99,18 +99,47 @@ ul{
 }
 @media only screen and (max-width:756px){
     .cuadro{
-    font-size: 0.7rem !important;
+    font-size: 0.7rem;
     }
+}
+
+.venta{
+    width: 15rem;}
+.titulo-carta{
+    font-size: 1rem;
+}
+.texto-carta{
+    font-size: 0.9rem;
+}
+@media screen and (max-width:768px){
+    .titulo-carta{
+        font-size: 1rem;
+     }
+    .texto-carta{
+        font-size: 0.75rem;
+        }
+    .venta{
+        width:11.5rem;
+    }    
 }
 @media only screen and (max-width:558px)  {
     .cuadro{
-        font-size: 0.5rem !important;
+        font-size: 0.5rem;
     }
-    
+    .titulo-carta{
+        font-size: 0.6rem;
+     }
+    .texto-carta{
+        font-size: 0.5rem;
+        }
+    .venta{
+        width:7.5rem;
+    }
 }
 @media only screen and (max-width:366px)  {
     .cuadro{
-        font-size: 0.3rem !important;
+        font-size: 0.3rem;
+
     }
     
 }
