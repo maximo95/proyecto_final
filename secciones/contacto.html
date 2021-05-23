@@ -6,14 +6,18 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="Viewport" content="width=device-width,initial-scale=1.0 "/>
+    <!--SEO-->
     <meta name="keywords" content="formulario, consultas, stock, empresa">
+    <meta name="description" content="venta por menor y por mayor de granos de cafe organicos importados">
     <title>
       cafetin/formulario
-    </title>
-    <meta name="description" content="venta por menor y por mayor de granos de cafe organicos importados">
+    </title>  
   </head>
   <body id="background">
+    <!--NAVBAR-->
     <nav class="navbar navbar-expand-lg navbar-dark indicaciones header">
       <a class="navbar-brand" href="../index.html">
         <img src="../fotos/logo_para_html_cafe.png" width="70" height="70" alt="imagen de un cartel con una taza de cafe">
@@ -39,48 +43,49 @@
         </ul>
       </div>
     </nav>
+    <!--FORMULARIO-->
     <div class="container">
       <div class="row justify-content-center">
-        <H1>FORMULARIO DE CONSULTA</H1>
+        <H1 class="titulo-formulario">FORMULARIO DE CONSULTA</H1>
       </div>
     </div>
       <form class="formulario container">
             <div class="row justify-content-center">
-              <div class="col-lg-4">
+              <div class="col-8 col-lg-4">
                 <input type="text" class="form-control" placeholder="nombre">
               </div>
             </div>
               <div class="row justify-content-center separar">
-                <div class="col-lg-4">
+                <div class="col-8 col-lg-4">
                   <input type="text" class="form-control" placeholder="apellido">
                 </div>
               </div>
             </div>
             <div class="row justify-content-center">
-              <div class="form-group col-lg-4">
-                <label for="exampleFormControlInput1">Email </label>
+              <div class="form-group col-8 col-lg-4">
+                <label for="exampleFormControlInput1" class="texto-formulario">Email </label>
                 <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
               </div>
             </div>
             <div class="row justify-content-center">
-              <div class="form-group col-lg-4">
-                <label for="formGroupExampleInput">Telefono</label>
+              <div class="form-group col-8 col-lg-4">
+                <label for="formGroupExampleInput" class=" texto-formulario">Telefono</label>
                 <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Telefono">
               </div>
             </div>
               <div class="row justify-content-center">
                 <div class="form-check form-check-inline">
                   <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                  <label class="form-check-label" for="inlineCheckbox1">Persona juridica</label>
+                  <label class="form-check-label texto-formulario" for="inlineCheckbox1">Persona juridica</label>
                 </div>
                 <div class="form-check form-check-inline">
                   <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                  <label class="form-check-label" for="inlineCheckbox2">Persona física</label>
+                  <label class="form-check-label texto-formulario" for="inlineCheckbox2">Persona física</label>
               </div>
             </div>
             <div class="row justify-content-center">
-              <div class="form-group col-lg-4">
-                <label for="exampleFormControlSelect1">Tipo de cafe</label>
+              <div class="form-group col-8 col-lg-4">
+                <label class="texto-formulario" for="exampleFormControlSelect1">Tipo de cafe</label>
                 <select class="form-control" id="exampleFormControlSelect1">
                   <option>cafe de brasil</option>
                   <option>cafe de colombia</option>
@@ -88,8 +93,8 @@
               </div>
             </div>
             <div class="row justify-content-center">
-              <div class="form-group col-lg-4">
-                <label for="exampleFormControlTextarea1">texto de consulta</label>
+              <div class="form-group col-8 col-lg-4">
+                <label class="texto-formulario" for="exampleFormControlTextarea1">Texto de consulta</label>
                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
               </div>
             </div>
@@ -123,6 +128,7 @@
         </div>
       </div>
       </form>
+      <!--FOOTER-->
       <footer class="container-fluid">
         <div class="row justify-content-center">
           <div class="col-2 centrarIconos">
